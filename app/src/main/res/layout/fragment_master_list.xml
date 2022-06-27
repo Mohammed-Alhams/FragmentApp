@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="محمد عماد الهمص"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="1301198805"
+        android:layout_marginBottom="180dp"
+        />
+
+    <TextView
+        android:id="@+id/tvSSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:text="alhams" />
+
+
+    <TextView
+        android:id="@+id/tvIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:text="192.168.1.1" />
+
+</LinearLayout>
